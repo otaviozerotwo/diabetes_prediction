@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    background-image: url("view/img/background_image.png");
+    background-repeat: repeat;
+    background-color: #F1EFEF;
+}
+
+.container-modificado{
+    max-width: 500px;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 1px solid #BFBFBF;
+}
+
+label{
+    font-weight: bold;
+}
+
+.input-modificado{
+    width: 200px;
+}
