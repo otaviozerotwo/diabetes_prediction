@@ -5,7 +5,7 @@
     </div>
 
     <div class="form-floating">
-        <form method="POST">
+        <form id="form-modificado" method="POST" autocomplete="off">
             <div class="d-flex justify-content-between">
                 <div class="mb-3">
                     <label for="sexo" class="mb-1">Sexo:</label>
@@ -67,9 +67,19 @@
             </div>
 
             <div class="mb-3">
-                <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                <button type="submit" class="btn btn-primary w-100" id="botao-enviar">Enviar</button>
             </div>
-            
         </form>
     </div>
+
+    <div class="form-floating d-none" id="div-resultado">
+        <div class="row text-center mb-5">
+            <h2 class="mb-5">Resultado</h2>
+        </div>
+
+        <div class="mb-3">
+            <a class="btn btn-primary w-100" href="index.php">Voltar</a>
+        </div>
+    </div>
+
 </main>

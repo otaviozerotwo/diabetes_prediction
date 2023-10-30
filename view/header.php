@@ -11,7 +11,8 @@
     </script>
     <!-- import css interno -->
     <link rel="stylesheet" href="style.css">
-    
+    <!-- import javascript interno -->
+    <script src="script.js"></script>
     <title>Diabetes Prediction</title>
 </head>
 <body>
