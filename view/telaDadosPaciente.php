@@ -5,7 +5,7 @@
     </div>
 
     <div class="form-floating">
-        <form id="form-modificado" action="view/funcoes.php" method="POST" autocomplete="off">
+        <form id="form-modificado" action="../model/funcoes.php" method="GET" autocomplete="off">
             <div class="d-flex justify-content-between">
                 <div class="mb-3">
                     <label for="sexo" class="mb-1">Sexo:</label>
@@ -77,9 +77,20 @@
             <h2 class="mb-5">Resultado</h2>
         </div>
 
+        <?php
+            if(isset($_SESSION['mensagemResultado'])){
+                echo '<p>' . $_SESSION['mensagemResultado'] . '</p>';
+
+                unset($_SESSION['mensagemResultado']);
+            }else{
+                echo '<p>Não funfou</p>';
+            }
+        ?>
+
         <div class="mb-3">
             <a class="btn btn-primary w-100" href="index.php">Voltar</a>
         </div>
     </div>
 
 </main>
+

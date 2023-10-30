@@ -1,5 +1,5 @@
 <?php
-//normalizador
+    //normalizador
     $sexo = $_GET["sexo"];
     $idade = $_GET["idade"];
     $hipertensao = $_GET["hipertensao"];
@@ -93,12 +93,10 @@ foreach ($distancias as $linha => $distancia) {
 }
 
 if ($posicaoMenorDistancia == 0){
-    echo "Baixa probabilidade de ter diabetes";
+    $mensagemResultado = "Baixa probabilidade de ter diabetes";
 }else{
-    echo "Alta probabilidade de ter diabetes";
+    $mensagemResultado = "Alta probabilidade de ter diabetes";
 }
-
-
 
 ?>
 
@@ -127,4 +125,3 @@ function distanciaEuclidiana($ponto1, $ponto2) {
 }
 
 ?>
-
