@@ -5,7 +5,7 @@
     </div>
 
     <div class="form-floating">
-        <form method="POST">
+        <form method="GET" action="view/funcoes.php">
             <div class="d-flex justify-content-between">
                 <div class="mb-3">
                     <label for="sexo" class="mb-1">Sexo:</label>
