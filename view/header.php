@@ -10,8 +10,9 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
     </script>
     <!-- import css interno -->
-    <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- import javascript interno -->
+    <script src="view/js/script.js"></script>
     <title>Diabetes Prediction</title>
 </head>
 <body>
